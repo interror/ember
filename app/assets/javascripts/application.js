@@ -19,5 +19,3 @@
 
 // for more details see: http://emberjs.com/guides/application/
 Myapp = Ember.Application.create();
-
-//= require_tree .

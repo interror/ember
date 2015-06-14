@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/machty/emblem.js.git
+  revision: b10ffa0945954a5dfb7dceff8cf1e0063572afcb
+  specs:
+    emblem-source (0.5.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -70,7 +76,6 @@ GEM
     emblem-rails (0.2.2)
       barber-emblem (~> 0.1.1)
       ember-rails (>= 0.14.0)
-    emblem-source (0.4.0)
     erubis (2.7.0)
     execjs (2.5.2)
     globalid (0.3.5)
@@ -125,6 +130,8 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
     rdoc (4.2.0)
+    responders (2.1.0)
+      railties (>= 4.2.0, < 5)
     sass (3.4.14)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -164,10 +171,12 @@ DEPENDENCIES
   ember-rails
   ember-source (~> 1.9.0)
   emblem-rails
+  emblem-source!
   jbuilder (~> 2.0)
   jquery-rails
   pg
   rails (= 4.2.0)
+  responders
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring

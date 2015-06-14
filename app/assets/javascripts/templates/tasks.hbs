@@ -1,0 +1,7 @@
+<h1>Tasks</h1>
+{{view Ember.TextField valueBinding="newTask" action="addTask" }}
+<ul>
+{{#each controller}}
+  <li>{{description}}</li>
+{{/each}}
+</ul>

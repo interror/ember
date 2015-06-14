@@ -17,6 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'ember-rails'
 gem 'ember-source', '~> 1.9.0'
 gem 'emblem-rails'
+gem "emblem-source", github: "machty/emblem.js"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -32,7 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'responders'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -46,4 +47,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
